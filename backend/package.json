@@ -1,0 +1,36 @@
+{
+  "name": "visual-product-matcher-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Visual Product Matcher using CLIP embeddings",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "precompute": "node src/utils/precomputeEmbeddings.js"
+  },
+  "keywords": [
+    "visual-search",
+    "product-matching",
+    "clip",
+    "embeddings"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@xenova/transformers": "^2.6.0",
+    "axios": "^1.6.0",
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.3",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.32.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

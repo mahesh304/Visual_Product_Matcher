@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="url(#grad)"/>
+  
+  <!-- Image icon -->
+  <g fill="white">
+    <!-- Frame -->
+    <rect x="16" y="18" width="32" height="28" rx="3" fill="none" stroke="white" stroke-width="3"/>
+    
+    <!-- Mountain -->
+    <path d="M 16 40 L 24 30 L 32 36 L 48 20 L 48 46 L 16 46 Z" opacity="0.9"/>
+    
+    <!-- Sun/Circle -->
+    <circle cx="38" cy="26" r="3.5" opacity="0.9"/>
+  </g>
+  
+  <!-- Magnifying glass on bottom right -->
+  <g>
+    <!-- White circle background -->
+    <circle cx="48" cy="48" r="9" fill="white"/>
+    <!-- Magnifying glass -->
+    <circle cx="48" cy="48" r="5" fill="none" stroke="url(#grad)" stroke-width="2.5"/>
+    <line x1="51.5" y1="51.5" x2="55" y2="55" stroke="url(#grad)" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+</svg>

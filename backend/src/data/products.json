@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "name": "Classic White Sneakers",
+    "category": "Footwear",
+    "price": 6499,
+    "image_url": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400"
+  },
+  {
+    "id": 2,
+    "name": "Leather Messenger Bag",
+    "category": "Bags",
+    "price": 10499,
+    "image_url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400"
+  },
+  {
+    "id": 3,
+    "name": "Wireless Bluetooth Headphones",
+    "category": "Electronics",
+    "price": 12499,
+    "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400"
+  },
+  {
+    "id": 4,
+    "name": "Minimalist Watch",
+    "category": "Accessories",
+    "price": 16499,
+    "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400"
+  },
+  {
+    "id": 5,
+    "name": "Denim Jacket",
+    "category": "Clothing",
+    "price": 7499,
+    "image_url": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=400"
+  },
+  {
+    "id": 6,
+    "name": "Cotton T-Shirt",
+    "category": "Clothing",
+    "price": 1999,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400"
+  },
+  {
+    "id": 7,
+    "name": "Hoodie Sweatshirt",
+    "category": "Clothing",
+    "price": 3999,
+    "image_url": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400"
+  },
+  {
+    "id": 8,
+    "name": "Yoga Mat",
+    "category": "Sports",
+    "price": 2399,
+    "image_url": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=400"
+  },
+  {
+    "id": 9,
+    "name": "Water Bottle",
+    "category": "Sports",
+    "price": 1499,
+    "image_url": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=400"
+  },
+  {
+    "id": 10,
+    "name": "Stainless Steel Pan",
+    "category": "Home & Kitchen",
+    "price": 3799,
+    "image_url": "https://images.unsplash.com/photo-1556911220-bff31c812dba?w=400"
+  },
+  {
+    "id": 11,
+    "name": "Running Shoes",
+    "category": "Footwear",
+    "price": 9999,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400"
+  },
+  {
+    "id": 12,
+    "name": "Laptop Sleeve",
+    "category": "Accessories",
+    "price": 2099,
+    "image_url": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=400"
+  },
+  {
+    "id": 13,
+    "name": "Winter Coat",
+    "category": "Clothing",
+    "price": 12999,
+    "image_url": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=400"
+  },
+  {
+    "id": 14,
+    "name": "Silk Scarf",
+    "category": "Accessories",
+    "price": 2899,
+    "image_url": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?w=400"
+  },
+  {
+    "id": 15,
+    "name": "Baseball Cap",
+    "category": "Accessories",
+    "price": 1899,
+    "image_url": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=400"
+  },
+  {
+    "id": 16,
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 4499,
+    "image_url": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400"
+  },
+  {
+    "id": 17,
+    "name": "Travel Backpack",
+    "category": "Bags",
+    "price": 6499,
+    "image_url": "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=400"
+  },
+  {
+    "id": 18,
+    "name": "Desk Lamp",
+    "category": "Home & Office",
+    "price": 3499,
+    "image_url": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=400"
+  },
+  {
+    "id": 19,
+    "name": "Polo Shirt",
+    "category": "Clothing",
+    "price": 3299,
+    "image_url": "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=400"
+  },
+  {
+    "id": 20,
+    "name": "Dress Shoes",
+    "category": "Footwear",
+    "price": 11499,
+    "image_url": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=400"
+  },
+  {
+    "id": 21,
+    "name": "Sunglasses",
+    "category": "Accessories",
+    "price": 5799,
+    "image_url": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=400"
+  },
+  {
+    "id": 22,
+    "name": "Leather Belt",
+    "category": "Accessories",
+    "price": 3699,
+    "image_url": "https://images.unsplash.com/photo-1624222247344-70e5e8d82d90?w=400"
+  },
+  {
+    "id": 23,
+    "name": "Formal Shirt",
+    "category": "Clothing",
+    "price": 4499,
+    "image_url": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=400"
+  },
+  {
+    "id": 24,
+    "name": "Jeans",
+    "category": "Clothing",
+    "price": 5799,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400"
+  },
+  {
+    "id": 25,
+    "name": "Chinos Pants",
+    "category": "Clothing",
+    "price": 4999,
+    "image_url": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=400"
+  },
+  {
+    "id": 26,
+    "name": "Sweatpants",
+    "category": "Clothing",
+    "price": 3699,
+    "image_url": "https://images.unsplash.com/photo-1517438322307-e67111335449?w=400"
+  },
+  {
+    "id": 27,
+    "name": "Shorts",
+    "category": "Clothing",
+    "price": 2899,
+    "image_url": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=400"
+  },
+  {
+    "id": 28,
+    "name": "Cardigan Sweater",
+    "category": "Clothing",
+    "price": 5399,
+    "image_url": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=400"
+  },
+  {
+    "id": 29,
+    "name": "Blazer",
+    "category": "Clothing",
+    "price": 12499,
+    "image_url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=400"
+  },
+  {
+    "id": 30,
+    "name": "Dress",
+    "category": "Clothing",
+    "price": 7499,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400"
+  },
+  {
+    "id": 31,
+    "name": "Skirt",
+    "category": "Clothing",
+    "price": 3999,
+    "image_url": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=400"
+  },
+  {
+    "id": 32,
+    "name": "Blouse",
+    "category": "Clothing",
+    "price": 3699,
+    "image_url": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=400"
+  },
+  {
+    "id": 33,
+    "name": "Tank Top",
+    "category": "Clothing",
+    "price": 1599,
+    "image_url": "https://images.unsplash.com/photo-1626497764746-6dc36546b388?w=400"
+  },
+  {
+    "id": 34,
+    "name": "Leather Wallet",
+    "category": "Accessories",
+    "price": 3999,
+    "image_url": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=400"
+  },
+  {
+    "id": 35,
+    "name": "Socks Pack",
+    "category": "Accessories",
+    "price": 1199,
+    "image_url": "https://images.unsplash.com/photo-1586350977771-b3b0abd50c82?w=400"
+  },
+  {
+    "id": 36,
+    "name": "Tie",
+    "category": "Accessories",
+    "price": 2499,
+    "image_url": "https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?w=400"
+  },
+  {
+    "id": 37,
+    "name": "Handbag",
+    "category": "Bags",
+    "price": 8999,
+    "image_url": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400"
+  },
+  {
+    "id": 38,
+    "name": "Tote Bag",
+    "category": "Bags",
+    "price": 3299,
+    "image_url": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=400"
+  },
+  {
+    "id": 39,
+    "name": "Crossbody Bag",
+    "category": "Bags",
+    "price": 6199,
+    "image_url": "https://images.unsplash.com/photo-1564422170194-896b89110ef8?w=400"
+  },
+  {
+    "id": 40,
+    "name": "Sandals",
+    "category": "Footwear",
+    "price": 3699,
+    "image_url": "https://images.unsplash.com/photo-1603487742131-4160ec999306?w=400"
+  },
+  {
+    "id": 41,
+    "name": "Slippers",
+    "category": "Footwear",
+    "price": 1999,
+    "image_url": "https://images.unsplash.com/photo-1631260863765-0a58a2f8d6c5?w=400"
+  },
+  {
+    "id": 42,
+    "name": "Boots",
+    "category": "Footwear",
+    "price": 11499,
+    "image_url": "https://images.unsplash.com/photo-1605812860427-4024433a70fd?w=400"
+  },
+  {
+    "id": 43,
+    "name": "High Heels",
+    "category": "Footwear",
+    "price": 7499,
+    "image_url": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=400"
+  },
+  {
+    "id": 44,
+    "name": "Flip Flops",
+    "category": "Footwear",
+    "price": 1599,
+    "image_url": "https://images.unsplash.com/photo-1556906918-be36f8c7d545?w=400"
+  },
+  {
+    "id": 45,
+    "name": "Rain Jacket",
+    "category": "Clothing",
+    "price": 6199,
+    "image_url": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400"
+  },
+  {
+    "id": 46,
+    "name": "Pajama Set",
+    "category": "Clothing",
+    "price": 3299,
+    "image_url": "https://images.unsplash.com/photo-1596516109370-29001ec8ec36?w=400"
+  },
+  {
+    "id": 47,
+    "name": "Bathrobe",
+    "category": "Clothing",
+    "price": 4499,
+    "image_url": "https://images.unsplash.com/photo-1609709295948-17d77cb2a69b?w=400"
+  },
+  {
+    "id": 48,
+    "name": "Beanie Hat",
+    "category": "Accessories",
+    "price": 1599,
+    "image_url": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?w=400"
+  },
+  {
+    "id": 49,
+    "name": "Gloves",
+    "category": "Accessories",
+    "price": 1999,
+    "image_url": "https://images.unsplash.com/photo-1606902965551-dce093cda6e7?w=400"
+  },
+  {
+    "id": 50,
+    "name": "Travel Tumbler",
+    "category": "Home & Kitchen",
+    "price": 2299,
+    "image_url": "https://images.unsplash.com/photo-1513028179155-324cfec2566d?w=400"
+  },
+  {
+    "id": 51,
+    "name": "Wireless Mouse",
+    "category": "Electronics",
+    "price": 2899,
+    "image_url": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400"
+  },
+  {
+    "id": 52,
+    "name": "Mechanical Keyboard",
+    "category": "Electronics",
+    "price": 7499,
+    "image_url": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=400"
+  },
+  {
+    "id": 53,
+    "name": "USB-C Hub",
+    "category": "Electronics",
+    "price": 3799,
+    "image_url": "https://images.unsplash.com/photo-1625948515291-69613efd103f?w=400"
+  },
+  {
+    "id": 54,
+    "name": "Laptop Stand",
+    "category": "Office Supplies",
+    "price": 3299,
+    "image_url": "https://images.unsplash.com/photo-1631979512182-5d8e6d60c3d7?w=400"
+  },
+  {
+    "id": 55,
+    "name": "Coffee Mug",
+    "category": "Home & Kitchen",
+    "price": 999,
+    "image_url": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=400"
+  },
+  {
+    "id": 56,
+    "name": "Insulated Water Bottle",
+    "category": "Sports",
+    "price": 2499,
+    "image_url": "https://images.unsplash.com/photo-1523362628745-0c100150b504?w=400"
+  },
+  {
+    "id": 57,
+    "name": "Notebook Set",
+    "category": "Office Supplies",
+    "price": 1299,
+    "image_url": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=400"
+  },
+  {
+    "id": 58,
+    "name": "Pen Set",
+    "category": "Office Supplies",
+    "price": 799,
+    "image_url": "https://images.unsplash.com/photo-1565022092949-62e32e1e2e8e?w=400"
+  },
+  {
+    "id": 59,
+    "name": "LED Desk Lamp",
+    "category": "Home & Office",
+    "price": 3499,
+    "image_url": "https://images.unsplash.com/photo-1541644311263-d87f0b603b52?w=400"
+  },
+  {
+    "id": 60,
+    "name": "Webcam HD",
+    "category": "Electronics",
+    "price": 6499,
+    "image_url": "https://images.unsplash.com/photo-1585792180666-f7347c490ee2?w=400"
+  },
+  {
+    "id": 61,
+    "name": "USB Flash Drive 64GB",
+    "category": "Electronics",
+    "price": 1399,
+    "image_url": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400"
+  },
+  {
+    "id": 62,
+    "name": "External Hard Drive 1TB",
+    "category": "Electronics",
+    "price": 5499,
+    "image_url": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=400"
+  },
+  {
+    "id": 63,
+    "name": "Phone Case",
+    "category": "Accessories",
+    "price": 1599,
+    "image_url": "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=400"
+  },
+  {
+    "id": 64,
+    "name": "Screen Protector",
+    "category": "Accessories",
+    "price": 999,
+    "image_url": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=400"
+  },
+  {
+    "id": 65,
+    "name": "Charging Cable",
+    "category": "Electronics",
+    "price": 1199,
+    "image_url": "https://images.unsplash.com/photo-1591290619762-c588602c3ade?w=400"
+  },
+  {
+    "id": 66,
+    "name": "Power Bank 20000mAh",
+    "category": "Electronics",
+    "price": 2999,
+    "image_url": "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=400"
+  },
+  {
+    "id": 67,
+    "name": "Portable Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 4499,
+    "image_url": "https://images.unsplash.com/photo-1589492477829-5e65395b66cc?w=400"
+  },
+  {
+    "id": 68,
+    "name": "Smart Watch",
+    "category": "Electronics",
+    "price": 16499,
+    "image_url": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=400"
+  },
+  {
+    "id": 69,
+    "name": "Fitness Tracker",
+    "category": "Sports",
+    "price": 7499,
+    "image_url": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=400"
+  },
+  {
+    "id": 70,
+    "name": "Yoga Mat Premium",
+    "category": "Sports",
+    "price": 3199,
+    "image_url": "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?w=400"
+  },
+  {
+    "id": 71,
+    "name": "Dumbbells Set",
+    "category": "Sports",
+    "price": 6499,
+    "image_url": "https://images.unsplash.com/photo-1517836477839-7072aaa8b121?w=400"
+  },
+  {
+    "id": 72,
+    "name": "Resistance Bands",
+    "category": "Sports",
+    "price": 1899,
+    "image_url": "https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=400"
+  },
+  {
+    "id": 73,
+    "name": "Athletic Running Shoes",
+    "category": "Footwear",
+    "price": 9999,
+    "image_url": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400"
+  },
+  {
+    "id": 74,
+    "name": "School Backpack",
+    "category": "Bags",
+    "price": 4999,
+    "image_url": "https://images.unsplash.com/photo-1581605405669-fcdf81165afa?w=400"
+  },
+  {
+    "id": 75,
+    "name": "Polarized Sunglasses",
+    "category": "Accessories",
+    "price": 6499,
+    "image_url": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400"
+  },
+  {
+    "id": 76,
+    "name": "Compact Umbrella",
+    "category": "Accessories",
+    "price": 1999,
+    "image_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=400"
+  },
+  {
+    "id": 77,
+    "name": "Reading Glasses",
+    "category": "Accessories",
+    "price": 2499,
+    "image_url": "https://images.unsplash.com/photo-1574258495973-f010dfbb5371?w=400"
+  },
+  {
+    "id": 78,
+    "name": "Electric Toothbrush",
+    "category": "Personal Care",
+    "price": 3999,
+    "image_url": "https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?w=400"
+  },
+  {
+    "id": 79,
+    "name": "Hair Dryer",
+    "category": "Personal Care",
+    "price": 3299,
+    "image_url": "https://images.unsplash.com/photo-1522338242992-e1a54906a8da?w=400"
+  },
+  {
+    "id": 80,
+    "name": "Shaving Kit",
+    "category": "Personal Care",
+    "price": 2899,
+    "image_url": "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=400"
+  },
+  {
+    "id": 81,
+    "name": "Monitor 24 inch",
+    "category": "Electronics",
+    "price": 14999,
+    "image_url": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=400"
+  },
+  {
+    "id": 82,
+    "name": "HDMI Cable",
+    "category": "Electronics",
+    "price": 999,
+    "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400"
+  },
+  {
+    "id": 83,
+    "name": "Desk Organizer",
+    "category": "Office Supplies",
+    "price": 1799,
+    "image_url": "https://images.unsplash.com/photo-1580974852861-c381510bc98a?w=400"
+  },
+  {
+    "id": 84,
+    "name": "Whiteboard",
+    "category": "Office Supplies",
+    "price": 3699,
+    "image_url": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=400"
+  },
+  {
+    "id": 85,
+    "name": "Stapler",
+    "category": "Office Supplies",
+    "price": 699,
+    "image_url": "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=400"
+  },
+  {
+    "id": 86,
+    "name": "Paper Shredder",
+    "category": "Office Supplies",
+    "price": 5799,
+    "image_url": "https://images.unsplash.com/photo-1583377201969-4c8c2b5d2f3c?w=400"
+  },
+  {
+    "id": 87,
+    "name": "Ergonomic Office Chair",
+    "category": "Furniture",
+    "price": 15999,
+    "image_url": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?w=400"
+  },
+  {
+    "id": 88,
+    "name": "Desk Mat",
+    "category": "Office Supplies",
+    "price": 1599,
+    "image_url": "https://images.unsplash.com/photo-1625225233840-695456021cde?w=400"
+  },
+  {
+    "id": 89,
+    "name": "Cable Management Box",
+    "category": "Office Supplies",
+    "price": 1399,
+    "image_url": "https://images.unsplash.com/photo-1614963466726-f4f00e711080?w=400"
+  },
+  {
+    "id": 90,
+    "name": "Laptop Sleeve 15 inch",
+    "category": "Accessories",
+    "price": 2099,
+    "image_url": "https://images.unsplash.com/photo-1617043786394-f977fa12eddf?w=400"
+  },
+  {
+    "id": 91,
+    "name": "Portable SSD 500GB",
+    "category": "Electronics",
+    "price": 7499,
+    "image_url": "https://images.unsplash.com/photo-1624705002806-5d72df19c3ad?w=400"
+  },
+  {
+    "id": 92,
+    "name": "Graphics Tablet",
+    "category": "Electronics",
+    "price": 10999,
+    "image_url": "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?w=400"
+  },
+  {
+    "id": 93,
+    "name": "USB Microphone",
+    "category": "Electronics",
+    "price": 6199,
+    "image_url": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=400"
+  },
+  {
+    "id": 94,
+    "name": "Ring Light",
+    "category": "Electronics",
+    "price": 3799,
+    "image_url": "https://images.unsplash.com/photo-1611532736579-6b16e2b50449?w=400"
+  },
+  {
+    "id": 95,
+    "name": "Camera Tripod",
+    "category": "Photography",
+    "price": 3299,
+    "image_url": "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?w=400"
+  },
+  {
+    "id": 96,
+    "name": "SD Card 128GB",
+    "category": "Electronics",
+    "price": 2099,
+    "image_url": "https://images.unsplash.com/photo-1590856029826-c7a73142bbf1?w=400"
+  },
+  {
+    "id": 97,
+    "name": "Card Reader",
+    "category": "Electronics",
+    "price": 1099,
+    "image_url": "https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?w=400"
+  },
+  {
+    "id": 98,
+    "name": "Laptop Cooling Pad",
+    "category": "Electronics",
+    "price": 2499,
+    "image_url": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=400"
+  },
+  {
+    "id": 99,
+    "name": "Smartphone Stand",
+    "category": "Accessories",
+    "price": 1199,
+    "image_url": "https://images.unsplash.com/photo-1622537433146-76ace2a023c6?w=400"
+  },
+  {
+    "id": 100,
+    "name": "Wireless Charger Pad",
+    "category": "Electronics",
+    "price": 2299,
+    "image_url": "https://images.unsplash.com/photo-1591290619762-c588602c3ade?w=400"
+  }
+]
