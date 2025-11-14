@@ -2,6 +2,7 @@ import axios from 'axios';
 import { createContext, useContext, useEffect, useState } from 'react';
 
 const AuthContext = createContext(null);
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
 
 /**
  * Authentication Provider Component
@@ -24,7 +25,7 @@ export const AuthProvider = ({ children }) => {
   // Load user profile
   const loadUser = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/auth/me', {
+      const response = await axios.get(`${API_URL}/auth/me`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -46,7 +47,7 @@ export const AuthProvider = ({ children }) => {
   // Login function
   const login = async (email, password) => {
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/login', {
+      const response = await axios.post(`${API_URL}/auth/login`, {
         email,
         password,
       });
@@ -69,7 +70,7 @@ export const AuthProvider = ({ children }) => {
   // Signup function
   const signup = async (name, email, password) => {
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/signup', {
+      const response = await axios.post(`${API_URL}/auth/signup`, {
         name,
         email,
         password,
@@ -100,7 +101,7 @@ export const AuthProvider = ({ children }) => {
   // Get search history
   const getSearchHistory = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/auth/history', {
+      const response = await axios.get(`${API_URL}/auth/history`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -118,7 +119,7 @@ export const AuthProvider = ({ children }) => {
   // Delete search history item
   const deleteSearchHistory = async (id) => {
     try {
-      const response = await axios.delete(`http://localhost:5000/api/auth/history/${id}`, {
+      const response = await axios.delete(`${API_URL}/auth/history/${id}`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
