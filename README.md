@@ -3,7 +3,7 @@
 Find similar products by uploading images - like Google Lens for shopping!
 
 **🌐 Live Demo:** https://visual-product-matcher-frontend-b5hz.onrender.com  
-**💻 GitHub:** https://github.com/mahesh304/Visual_Product_Matcher
+**💻 GitHub:** https://github.com/mahesh304/Visual_Product_Matcher  
 **💼 LinkedIn:** https://www.linkedin.com/posts/mahesh-velishala_webdevelopment-react-nodejs-ugcPost-7395508312588513280-C-fV?utm_source=share&utm_medium=member_desktop&rcm=ACoAADyPqEIB0mWxSpSM7_C-xGP5o5zO3qttTQQ
 ---
 
